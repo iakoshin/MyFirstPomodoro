@@ -1,0 +1,61 @@
+.Timer {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  text-shadow: 2px 2px 4px pink;
+}
+
+:root {
+  --primary: #e6400e;
+  --secondary: #129c3b;
+  --light-gray: #9e0303da;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 16px;
+  text-shadow: 2px 2px 4px pink;
+  background-color: blanchedalmond;
+}
+
+h1 {
+  margin: 2em;
+  padding: 1em;
+}
+
+.ui-input {
+  background-color: var(--primary);
+  color: black;
+  border: 0;
+  padding: 15px 20px;
+  min-width: 150px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 200ms ease-out;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px pink;
+}
+
+.ui-button {
+  background-color: var(--primary);
+  color: black;
+  border: 0;
+  padding: 15px 20px;
+  min-width: 150px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: opacity 200ms ease-out;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px pink;
+}
+
+.ui-button:hover {
+  opacity: 0.8;
+}
+
+[class^="ui-"] {
+  margin: 10px;
+}
